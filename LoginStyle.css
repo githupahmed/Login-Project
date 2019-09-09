@@ -1,0 +1,125 @@
+body{
+    width:886;
+    height:567;
+    background-color: gainsboro;
+}    
+.mainContainer{
+    width:866px;
+    height:547px;
+    margin:10px;
+    border-radius: 25PX;
+    background-color:white;
+    display:flex;
+    font-family:sans-serif
+}
+.leftSide{
+    width:50%;
+    height:100%;
+    border-radius: 25PX;
+}
+.rightSide{
+    width:50%;
+    color:white;
+    background-image: linear-gradient(to bottom right, rgb(37, 4, 44), rgb(152, 16, 170));
+    border-top-right-radius: 25PX;
+    border-bottom-right-radius: 25PX;
+}
+.loginLabel{
+    margin:50px;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+}
+.inputContainer{
+    margin:50px;
+    color:gray;
+}   
+#email, #password{
+    width:98%;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:5px;
+    background-color:whitesmoke;
+    border:none;
+}
+#check{
+    margin-top:10px;
+    transform: scale(1.5);
+}
+.checkboxText{
+    display:inline;
+}
+.forget{
+    float:right;
+    margin-top:10px;
+    text-decoration: none;
+    color:gray;
+}
+#loginButton{
+    width:100%;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(159, 15, 196);
+    padding:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border:none;
+}
+.connectwithContainer{
+    text-align:center;
+    margin-top:15px;
+    color:gray;
+}
+.hLeftLine{
+    width:25%;
+    float:left;
+}
+.hRightLine{
+    width:25%;
+    float:right;
+}
+#copyWrite{
+    display:flex;
+    justify-content:center;
+    margin-top:80px;
+    font-size:12px;
+    color:gray;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top:120px;
+    font-size: 120px;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+    font-weight: bold;
+    margin-top:30px;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    font-size:15px;
+    margin-left:50px;
+    margin-right:50px;
+    text-align:center;
+}
+.register{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:140px;
+    padding:10px;
+    font-size:15px;
+    font-weight: bold;
+    border:1px solid white;
+    border-radius: 25px;
+    text-align:center;    
+}
+.mainRegister{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
